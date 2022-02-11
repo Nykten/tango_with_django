@@ -131,3 +131,6 @@ STATIC_URL = '/static/'
 # Chapter 4.3
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
+
+# Login URL
+LOGIN_URL = 'rango:login'
